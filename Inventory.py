@@ -2,7 +2,6 @@ from Medicines import Medicines
 from dataclasses import dataclass, field
 import datetime
 
-
 @dataclass
 class Inventory:
     __medicines: list[Medicines] = field(default_factory=list)  # Private list
